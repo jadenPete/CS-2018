@@ -31,8 +31,8 @@ function showSlides(num, scroll){
     slides.eq(slideIndex - 1).css("display", "inline-block");
     dots.eq(slideIndex - 1).addClass("active");
 
-    container.css("padding-top", $(window).height() - $(".mdl-layout__header").outerHeight() -
-                                 container.height() - $(".dots").outerHeight());
+    container.css("margin-top", $(window).height() - $(".mdl-layout__header").outerHeight() -
+                                 container.outerHeight() - $(".dots").outerHeight());
 
     if(scroll){
       $(".slideshow-view")[0].scrollIntoView();
