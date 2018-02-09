@@ -1,0 +1,90 @@
+.mdl-layout {
+  background: url('../images/flip.jpg') center / cover;
+}
+
+.slideshow-container {
+  width: 100%;
+  text-align: center;
+}
+
+.slideshow {
+  display: none;
+  position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  top: 50%;
+  padding: 16px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.prev {
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption {
+  font-size: 15px;
+
+  position: absolute;
+  text-align: center;
+
+  bottom: 8px;
+  width: 100%;
+
+}
+
+.image {
+  border-width: 15px;
+  border-style: solid;
+  border-color: #eaeaea;
+  border-radius: 2px;
+
+  height:
+}
+
+.dots {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+
+  width: 15px;
+  height: 15px;
+
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fff;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
+
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}

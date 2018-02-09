@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/main.js"></script>
+
+    <link rel="icon" href="../favicon.png">
+    <title>Problem Solving</title>
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">
+            <a href="../index.html">Mr. Pointer's Class</a> - Problem Solving
+          </span>
+
+          <!-- Spacer to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+
+          <!-- Right aligned menu -->
+          <button id="menu" class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="material-icons">more_vert</i>
+          </button>
+
+          <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu">
+            <li class="mdl-menu__item" onclick="goto('../pages/flip.html')">FLiP Try-it Kit</li>
+            <li class="mdl-menu__item" onclick="goto('../pages/activitybot.html')">ActivityBot 360° Robot Kit</li>
+            <li class="mdl-menu__item" onclick="goto('../pages/spanning-map.html')">Spanning Map</li>
+            <!--<li class="mdl-menu__item disabled" disabled>Problem Solving</li>-->
+            <li class="mdl-menu__item" onclick="goto('../pages/previous-work.html')">Previous Work</li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="mdl-layout__content">
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">
+              Copyright © 2018 Jaden Peterson and Anthony Tran. All rights reserved.
+            </div>
+
+            <ul class="mdl-mini-footer__link-list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mini-footer__right-section">
+            <img src="../images/social/facebook.png">
+            <img src="../images/social/twitter.png">
+            <img style="filter: invert(100%)" src="../images/social/instagram.png">
+
+            <a class="github-button" href="https://github.com/jadenPete" data-size="large" aria-label="Follow @jadenPete on GitHub">Follow @jadenPete</a>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
