@@ -2,7 +2,7 @@
   margin-left: -48px;
 }
 
-.mdl-layout-title a {
+.mdl-layout-title > a {
   color: white;
   font-weight: normal;
   text-decoration: none;
@@ -55,11 +55,15 @@
   display: block;
 }
 
-.mdl-mini-footer__link-list li {
+.mdl-mini-footer__link-list > li {
   display: inline;
 }
 
-.mdl-mini-footer__right-section img {
+.mdl-mini-footer__right-section {
+  display: flex;
+}
+
+.social > img {
   width: 36px;
   height: 36px;
 
@@ -67,6 +71,10 @@
   margin-left: 8px;
 }
 
-.mdl-mini-footer__right-section iframe {
-  margin-top: 16px;
+.github-buttons > iframe:not(:first-child){
+  margin-top: 8px;
+}
+
+.github-buttons {
+  margin-right: 12px;
 }
