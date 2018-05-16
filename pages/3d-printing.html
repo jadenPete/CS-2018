@@ -8,19 +8,24 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/3d-printing.css">
+
+    <script src="../scripts/3d-printing.js"></script>
     <script src="../scripts/main.js"></script>
 
     <link rel="icon" href="../favicon.png">
-    <title>Problem Solving</title>
+    <title>3D Printing</title>
   </head>
 
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="header-image"></div>
+
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
           <!-- Title -->
           <span class="mdl-layout-title">
-            <a href="../index.html">Mr. Pointer's Class</a> - Problem Solving
+            <a href="../index.html">Mr. Pointer's Class</a> - 3D Printing
           </span>
 
           <!-- Spacer to align navigation to the right -->
@@ -35,13 +40,34 @@
             <li class="mdl-menu__item" onclick="goto('../pages/flip.html')">FLiP Try-it Kit</li>
             <li class="mdl-menu__item" onclick="goto('../pages/activitybot.html')">ActivityBot 360° Robot Kit</li>
             <li class="mdl-menu__item" onclick="goto('../pages/spanning-map.html')">Spanning Map</li>
-            <!--<li class="mdl-menu__item disabled" disabled>Problem Solving</li>-->
+            <li class="mdl-menu__item disabled" disabled>3D Printing</li>
             <li class="mdl-menu__item" onclick="goto('../pages/previous-work.html')">Previous Work</li>
           </ul>
         </div>
       </header>
 
       <main class="mdl-layout__content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone"></div>
+          <div class="cell-opaque mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <h3>Introduction</h3>
+
+            <p>
+              Unlike our previous projects, we developed our
+              ActivityBot together. Similar to the FLiP board,
+              these devices were provided by Parallax to us.
+              We built this bot from the ground up to have
+              wheels, a sensor, a battery pack, and more. The
+              build process took only two days, however getting
+              it working took nearly a week. During this period
+              of trial and error, we encountered issues with
+              everything from the software to the motors, but
+              eventually we produced a functional robot. Below
+              you will find a video of our final results.
+            </p>
+          </div>
+        </div>
+
         <footer class="mdl-mini-footer mdl-shadow--16dp">
           <div class="mdl-mini-footer__left-section">
             <div class="mdl-logo">

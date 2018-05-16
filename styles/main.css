@@ -1,3 +1,7 @@
+.mdl-layout__header {
+  transition: all 0.5s ease;
+}
+
 .mdl-layout-title {
   margin-left: -48px;
 }
@@ -8,28 +12,28 @@
   text-decoration: none;
 }
 
-.mdl-layout__header {
-  color: white;
-  transition: all 0.5s ease;
-}
-
 .mdl-layout__content {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 .disabled {
-  background-color: #cccccc !important;
+  background-color: #CCCCCC !important;
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
-.description {
-  background-color: rgba(234, 234, 234, 0.92);
+.cell-transparent,
+.cell-opaque {
+  background-color: rgb(234, 234, 234);
 
   border-radius: 2px;
   padding: 80px 56px;
 
   margin-top: 80px;
   margin-bottom: 80px;
+}
+
+.cell-transparent {
+  opacity: 0.92;
 }
 
 .embed-container {
@@ -63,18 +67,18 @@
   display: flex;
 }
 
-.social > img {
-  width: 36px;
-  height: 36px;
-
-  cursor: pointer;
-  margin-left: 8px;
-}
-
 .github-buttons > iframe:not(:first-child){
   margin-top: 8px;
 }
 
 .github-buttons {
   margin-right: 12px;
+}
+
+.social > img {
+  width: 36px;
+  height: 36px;
+
+  cursor: pointer;
+  margin-left: 8px;
 }
