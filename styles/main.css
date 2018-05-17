@@ -23,8 +23,6 @@
 
 .cell-transparent,
 .cell-opaque {
-  background-color: rgb(234, 234, 234);
-
   border-radius: 2px;
   padding: 80px 56px;
 
@@ -33,7 +31,11 @@
 }
 
 .cell-transparent {
-  opacity: 0.92;
+  background-color: rgba(234, 234, 234, 0.92);
+}
+
+.cell-opaque {
+  background-color: #FFFFFF;
 }
 
 .embed-container {
