@@ -22,12 +22,9 @@
   margin-top: calc(80px + 64px);
 }
 
-.embed-container {
-  border-radius: 3px;
-  margin-bottom: 0;
-  overflow: hidden;
-}
-
 .embed {
   width: 100% !important;
+
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
