@@ -24,7 +24,24 @@
 
 .embed {
   width: 100% !important;
+  height: 0 !important;
+  
+  position: relative;
+  padding-bottom: 56.25%;
 
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.embed > * {
+  /* Weird pixel rounding issue */
+  height: calc(100% + 1px);
+  position: absolute;  
+  
+  top: 0;
+  left: 0;
+}
+
+.last-embed {
+  margin-bottom: 0;
 }
